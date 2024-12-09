@@ -16,10 +16,10 @@ export default function CulinaryClass() {
   const { theme } = useTheme();
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="CulinaryClass" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Culinary Teacher</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
+        {CulinaryClassData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
