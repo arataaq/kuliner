@@ -10,12 +10,12 @@ export default function Product() {
   const { ref } = useSectionInView("Product", 0.5);
 
   return (
-    <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+    <section ref={ref} id="product" className="scroll-mt-28 mb-28">
       <SectionHeading>My Product</SectionHeading>
       <div>
-        {projectsData.map((project, index) => (
+        {productData.map((product, index) => (
           <React.Fragment key={index}>
-            <Project {...project} />
+            <Product {...product} />
           </React.Fragment>
         ))}
       </div>
