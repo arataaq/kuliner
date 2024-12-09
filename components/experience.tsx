@@ -7,12 +7,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from "@/lib/data";
+import { CulinaryClassData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
-export default function Experience() {
-  const { ref } = useSectionInView("Culinary Class");
+export default function CulinaryClass() {
+  const { ref } = useSectionInView("CulinaryClass");
   const { theme } = useTheme();
 
   return (
